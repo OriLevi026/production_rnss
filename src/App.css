@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+  
+}
+.nav-container{
+  display:flex;
+  height: 100px;
+}
+.nav-logo{
+  margin-left:25px ;
+  margin-top:20px;
+  min-width: 110px;
+  height: auto;
+  /* flex:3; */
+}
+.nav-button{
+  margin:auto;
+  font-size: 22px;
+  
+}
+.HomeNav{
+margin:auto;
+
+}
+
+.img-container{
+width: 100%;
+height: auto;
+}
+
+
+.setup{
+  width: 100px;
+  margin: 10px 10px 10px 10px;
+  height: 60px;
+}
+
+.big-setup{
+  width: 400px;
+  height: auto;
+}
+
+.eyeMusicViewer{
+  background-color: azure;
+}
+.classes{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  /* justify-content: space-around; */
+  margin:20px;
+  align-content: stretch;
+}
+.TSVimg{
+  width: 50%;
+  height: auto;
+  border-radius: 5px;
+}
+.TopospeachViewer{
+  background-color:whitesmoke;
+  width: 100%;
+  height: auto;
+  flex-direction: column; 
+  border-radius: 15px;
+}
+  
+.beforeClick{
+  font-size: 40px;
+  width: auto;
+  min-width: 350px;
+  height: 100px;
+  margin: 5px 5px;
+}
+.afterClick{
+  font-size: 50px;
+  width: auto;
+  min-width: 350px;
+  height: 100px;
+  margin: 5px 5px;
+  color:rgb(231, 12, 12);
+}
+.afterClick-Correct{
+  font-size: 50px;
+  width: auto;
+  min-width: 350px;
+  height: 100px;
+  margin: 5px 5px;
+  font-weight: bold;
+  color:rgb(24, 201, 24);
+}
+
+.tps-button{
+  font-size: 32px;
+  flex-basis: 50%;
+  background-color: white;
+}
+.tps-button .tps-button-clicked,
+.tps-button:tps .tps-button-nonclicked{
+  display:none
+}
+.tps-button:tps .tps-button-clicked{
+  display: inline;
+}
