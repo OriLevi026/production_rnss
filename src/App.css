@@ -13,6 +13,18 @@ a:-webkit-any-link {
   margin-right: 20px;
   text-decoration: none;
 }
+/* FONTS SIZE */
+.SML{
+  font-size:18px;
+  color:gray;
+}
+.MED{font-size:24px;}
+.BIG{font-size:36px;}
+/* COVERS */
+.gray_cover{
+  background-color: whitesmoke;
+  margin-top: 50px;
+}
 
 /* ========== Navigation-Bar section ========== */
 .navigation-bar{
@@ -23,8 +35,8 @@ a:-webkit-any-link {
   background-color: white;
 }
 .logo{
- width: 250px;
- height: 110px;
+ width: 200px;
+ /* height: 110px; */
  }
 .nav-buttons{
   /* margin:auto; */
@@ -47,31 +59,37 @@ a:-webkit-any-link {
 }
 /*========== Home Section ========== */
 .home-container{
-  margin-top: 200px;
+  /* margin-top: 200px; */
   /* position: absolute; */
   /* margin-top: 100px; */
 }
 .home-img{
+  margin-top: 120px;
   width: 95%;
 }
 .img-text{
   position: absolute;
-  top: 65%;
-  left: 40%;
+  top: 80%;
+  left: 42%;
   font-weight: bold;
   transform: translate(-50%, -50%);
-  font-size: 42px;
+  font-size: 40px;
   font-family: 'Roboto Slab', serif;
 }
 /*========== About Section ==========*/
 .container{
-  margin-top: 150px;
+  margin-top: 60px;
   /* margin-top: 10px; */
   display: flex;
   flex-direction: column;
   font-family: 'Roboto Slab', serif;
   font-size: 22px;
   justify-content: center;
+}
+.img_middle{
+  display: flex;
+  width: 180px;
+  align-items: center;
 }
 .subscribe{
   background-color: rgb(223, 190, 80);
@@ -80,6 +98,10 @@ a:-webkit-any-link {
 .headline{
   font-size: 30px;
   font-weight: bold;
+  margin:10px;
+}
+.text{
+
 }
 .youtube{
 margin-top: 30px;
