@@ -4,22 +4,25 @@ class ResearchPage extends Component {
     render() { 
         return ( 
             <div>
-                <h1>Combining impact and cutting-edge technology with years of research</h1>
-                <table align="center">
-                <tr class="reserch-title2" >
-                    <td>Impact</td>
-                    <td>Technology</td>
-                    <td>Research</td>
-                </tr>
-                <tr>
-                    <td>285 million people with visual<br/> impairment suffer from lower<br/> quality of life, lower<br/> independence resulting in a huge<br/> unmet need in this population</td>
-                    <td>A novel form of eyes-free<br/> interaction with the visual world,<br/> with relevance to many other<br/> use cases of human<br/> enhancement and rehabilitation</td>
-                    <td>Research have consistently shown<br/> us how areas in the visual cortex<br/> of people who are blind from birth<br/> are activated using our working<br/> prototype</td>
-                </tr>
-
-                </table>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/jVBp2nDmg7E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <h6>in the video: Co-founder Prof. Amir Amedi of the Hebrew University of Jerusalem, explaining the research behind the technology.see more at www.brainvisionrehab.com</h6>
+                <div class="container">
+                    <h2>Combining impact and cutting-edge technology with years of research</h2>
+                    <table >
+                        <tr class="headline" >
+                            <td>Impact</td>
+                            <td>Technology</td>
+                            <td>Research</td>
+                        </tr>
+                        <tr >
+                            <td>285 million people with visual impairment suffer from lower quality of life, lower independence resulting in a huge unmet need in this population</td>
+                            <td>A novel form of eyes-free interaction with the visual world, with relevance to many other use cases of human enhancement and rehabilitation</td>
+                            <td>Research have consistently shown us how areas in the visual cortex of people who are blind from birth are activated using our working prototype</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="youtube"> 
+                    <iframe width="60%" height="450px" src="https://www.youtube.com/embed/jVBp2nDmg7E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                    <div class="container">in the video: Co-founder Prof. Amir Amedi of the Hebrew University of Jerusalem, explaining the research behind the technology.<br/>see more at www.brainvisionrehab.com</div>
             </div>
          );
     }

@@ -6,13 +6,13 @@ class CorrectButton extends Component {
         super(props);
         this.state = {
             value:props.value || 0,
-            clickedValue : "Correct",
+            imgText : props.imgText|| "Correct",
             view:"beforeClick",
           }
 
     }
     onClicked = () => {
-        this.setState({ value: this.state.clickedValue });
+        this.setState({ value: this.state.imgText });
         this.setState({view : "afterClick-Correct"})
     }
     

@@ -4,11 +4,9 @@ class HomePage extends Component {
 
     render() { 
         return (
-            <div>
-                
-            <img src="/RNSS_background2.jpg" width='100%' height='auto'></img>
-            <div>Conveying the visual world through sound</div>
-
+            <div class="home-container">
+                <img class="home-img" src="/RNSS_background2.jpg" ></img>
+                <span class="img-text">Conveying the Visual World through Sound</span>
             </div>
         );
 
