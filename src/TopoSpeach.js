@@ -4,13 +4,6 @@ import './App.css'
 
 
 class TopoSpeach extends Component {
-    state = {
-        visibleItrator : 0,
-        
-    }
-    
-    
-    
     render() { 
         return ( 
             <div>
