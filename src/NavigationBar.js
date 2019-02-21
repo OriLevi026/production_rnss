@@ -7,13 +7,16 @@ class NavigationBar extends Component {
     render() { 
         return ( 
             <div class="navigation-bar">
-                <img class="logo" src="/biglogo.jpg" ></img>
                 <div class="nav-buttons">
+                    <img class="logo" src="/biglogo.jpg" />
                     <NavLink class="nav-link"to="/" >HOME  </NavLink>
                     {/* <NavLink class='nav-link' to="/About">ABOUT  </NavLink> */}
-                    <a href="#About">ABOUT</a>
-                    <NavLink class='nav-link' to='/Research'>RESEARCH  </NavLink>
-                    <NavLink class='nav-link' to='/Technology'>TECHNOLOGY  </NavLink>
+                    <a href="#About" alt="About">ABOUT</a>
+                    <NavLink class='nav-link' to='/Products' exact>PRODUCTS</NavLink>{/* */}
+                
+                    <NavLink class='nav-link' to='/Research'>MEDIA  </NavLink>
+                    <NavLink class='nav-link' to='/Technology'>VIDEO & TESTIMONIALS  </NavLink>
+                    <a href="#Team">TEAM</a>
                     <NavLink class='nav-link' to='/Contact'>CONTACT  </NavLink>
                     <NavLink class="nav-link" to="/TrainEyeMusic">TRAIN-EYE-MUSIC</NavLink>
                 </div>

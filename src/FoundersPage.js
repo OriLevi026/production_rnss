@@ -4,8 +4,8 @@ class FoundersPage extends Component {
     state = {  }
     render() { 
         return ( 
-            <div>
-                <div>Meet The Team</div>
+            <div id="Team">
+                <div class="section-headline">MEET THE TEAM</div>
                 <table>
                     <tr>
                         <td>

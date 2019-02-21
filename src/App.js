@@ -14,6 +14,9 @@ import DiagonalRed from './DiagonalRed'
 import TopoSpeach from './TopoSpeach'
 import TopoSpeechTutorial from './TopoSpeechTutorial'
 import ErorrPage from './ErorrPage'
+import Products from './Products';
+import EyeMusicApp from './EyeMusicApp';
+import EyeMusicWearable from './EyeMusicWearable';
 
 
 class App extends Component {
@@ -26,6 +29,9 @@ class App extends Component {
               <Switch>
                 <Route path="/" component={HomePage} exact></Route>
                 <Route path="/About" component={AboutPage}></Route>
+                <Route path="/Products" component={Products}exact></Route>
+                <Route path="/Products/EyeMusicApp" component={EyeMusicApp}></Route>
+                <Route path="/Products/EyeMusicWearable" component={EyeMusicWearable}></Route>
                 <Route path="/Research" component={ResearchPage}></Route>
                 <Route path="/Contact" component={ContactPage}></Route>
                 <Route path="/TrainEyeMusic" component={TrainEyeMusic} exact></Route>

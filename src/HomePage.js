@@ -16,11 +16,11 @@ class HomePage extends Component {
                     <img class="home-img" src="/RNSS_background2.jpg" ></img>
                 </div>
                 <div>
-                    <AboutPage id="About"/>
+                    <AboutPage/>
                     <ResearchPage/>
                     <AwardsPage/>
                     <VideosPage/>
-                    <FoundersPage/>
+                    <FoundersPage />
                     <ContactPage/>
                     <br/>
                 </div>    

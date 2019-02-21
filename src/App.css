@@ -3,22 +3,37 @@
   
 }
 a:-webkit-any-link {
-  
-  margin:15px 15px 15px 15px;
-  font-size: 22px;
-  font-family: 'Roboto Slab', serif;
+  margin: 20px;
+  font-size: 16px;
+  color: rgba(23, 22, 117, 0.678);
+  font-family: 'helvetica-w02-light', sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-right: 20px;
   text-decoration: none;
 }
-/* FONTS SIZE */
-.SML{
-  font-size:18px;
-  color:gray;
+/* TEXT TYPES */
+.section-headline{
+  font-size: 38px;
+  font-weight: bold;
+  font-family: 'helvetica-w02-light', sans-serif;
 }
-.MED{font-size:24px;}
+.headline{
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+.sub-headline{
+  font-size:22px;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 0.6px;
+}
+.text{
+  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+  color:rgb(110, 102, 102);
+  font-weight: lighter;
+}
 .BIG{font-size:36px;}
 /* COVERS */
 .gray_cover{
@@ -35,27 +50,30 @@ a:-webkit-any-link {
   background-color: white;
 }
 .logo{
- width: 200px;
- /* height: 110px; */
+ height: 60px;
+ margin-left: 15px;
+ margin-right: 25px;
  }
 .nav-buttons{
-  /* margin:auto; */
   font-size: 22px;
   font-family: 'Roboto Slab', serif;
   /* font-family: 'Roboto', sans-serif; */
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: start;
   margin-right: 20px;
+  flex-wrap: wrap;
  }
 .nav-link{
   text-decoration: none;
   margin: 10px 40px 10px 10px;
 }
 .blackLine{
-  background-color: darkblue;
-  width:100%;
-  height: 2px;
+  background-color: rgba(23, 22, 117, 0.678);;
+  width:99%;
+  height: 1px;
+  filter: drop-shadow(2px 20px 4px #4444dd);
+  
 }
 /*========== Home Section ========== */
 .home-container{
@@ -66,6 +84,11 @@ a:-webkit-any-link {
 .home-img{
   margin-top: 120px;
   width: 95%;
+  /* filter: blur(1.5px); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 .img-text{
   position: absolute;
@@ -78,7 +101,7 @@ a:-webkit-any-link {
 }
 /*========== About Section ==========*/
 .container{
-  margin-top: 60px;
+  margin-top:10px;
   /* margin-top: 10px; */
   display: flex;
   flex-direction: column;
@@ -93,6 +116,12 @@ a:-webkit-any-link {
 }
 .subscribe{
   background-color: rgb(223, 190, 80);
+}
+
+/*========== Products Section ==========*/
+.products{
+  margin-top: 120px;
+  font-size: 32px;
 }
 /*========== Research Section ==========*/
 .headline{
