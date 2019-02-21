@@ -8,35 +8,21 @@ class TrainEyeMusic extends Component {
     state = {  }
     render() { 
         return ( 
-            <div >
-                <div>
-                    <p>Select Class</p>
-                </div>
-                <div class="classes">
-                        <button>TopoSpeach
-                            <NavLink to="/TrainEyeMusic/TopoSpeach" ><br/> Start the Step By Step Training</NavLink>
-                        </button>
-                        <button>TopoSpeach2
-                            <NavLink to="/TrainEyeMusic/TopoSpeechTutorial" ><br/> Start the Step By Step Training</NavLink>
-                        </button>
-                    </div>
-                <div class="classes">
-                    <button>
-                        <NavLink to="/TrainEyeMusic/DiagonalLines">#1 Diagonal Lines</NavLink>
-                    </button>
-                    <button>
-                        <NavLink to="/TrainEyeMusic/Horizontal-Lines">#2 Horizontal Lines</NavLink>
-                    </button>
-                    <button>
-                        <NavLink to="/TrainEyeMusic/Vertical-Lines">#3 Vertical Lines</NavLink>
-                    </button>
-                    <button>
-                        <NavLink to="/TrainEyeMusic/All-Types-Lines">#4 All Types Lines</NavLink>
-                    </button>
-                </div>
+            <div class="container" >
+                <h2>Welcome to the Train-Eye-Music section</h2>
+                <h3>in this section you will learn how to use our apps, Step by step.</h3>
+                <div>learn how to use Renew senses app</div>
+                <NavLink to="/TrainEyeMusic/TopoSpeechTutorial" > Start the Step By Step Training</NavLink>
+                <br/><div>learn how to use EyeMusic app</div>
+                <NavLink to="/TrainEyeMusic/DiagonalLines">Diagonal Lines</NavLink>
+                <NavLink to="/TrainEyeMusic/Horizontal-Lines">Horizontal Lines</NavLink>
+                <NavLink to="/TrainEyeMusic/Vertical-Lines">Vertical Lines</NavLink>
+                <NavLink to="/TrainEyeMusic/All-Types-Lines">All Types Lines</NavLink>
             </div>
-         );
+            );
+        }
     }
-}
+
+                
  
 export default TrainEyeMusic;

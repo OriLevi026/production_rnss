@@ -18,6 +18,7 @@ class TSViewer extends Component {
             audioSrc: props.audioSrc || "/beep-07.mp3",
             imgSrc: props.imgSrc,
             visible : props.visible || true,
+            imgText : props.imgText,
         }
     }
 
@@ -26,7 +27,7 @@ class TSViewer extends Component {
         const contant = [];
         for(let i=1;i<=this.state.rows*this.state.cols;i++){
             if(i == this.state.answerIndex){//--> sets correct button
-               contant.push(<CorrectButton value={i}/>);
+               contant.push(<CorrectButton value={i} imgText={this.state.imgText}/>);
             }
             else{//-->sets defult worng button
                 contant.push(<WrongButton value={i}/>);
@@ -46,7 +47,7 @@ class TSViewer extends Component {
        if(this.state.visible){
 
            if (this.props.answerIndex > this.state.rows*this.state.cols)return "answerIndex Erorr";
-           //check if answer is exsit
+           //check if answer is exist
            else return (
                 <div>
                     <img class="TSVimg" src={this.state.imgSrc}/><br/>

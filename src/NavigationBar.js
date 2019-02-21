@@ -6,18 +6,21 @@ class NavigationBar extends Component {
     state = {  }
     render() { 
         return ( 
-            <div class="nav-container">
-                <div id="nav-logo">
-                    <img src="/RNSS_logo.png" width='160px' height='auto' align="left"></img>
+            <div class="navigation-bar">
+                <div class="nav-buttons">
+                    <img class="logo" src="/biglogo.jpg" />
+                    <NavLink class="nav-link"to="/" >HOME  </NavLink>
+                    {/* <NavLink class='nav-link' to="/About">ABOUT  </NavLink> */}
+                    <a href="#About" alt="About">ABOUT</a>
+                    <NavLink class='nav-link' to='/Products' exact>PRODUCTS</NavLink>{/* */}
+                
+                    <NavLink class='nav-link' to='/Research'>MEDIA  </NavLink>
+                    <NavLink class='nav-link' to='/Technology'>VIDEO & TESTIMONIALS  </NavLink>
+                    <a href="#Team">TEAM</a>
+                    <NavLink class='nav-link' to='/Contact'>CONTACT  </NavLink>
+                    <NavLink class="nav-link" to="/TrainEyeMusic">TRAIN-EYE-MUSIC</NavLink>
                 </div>
-                <div class="nav-button">
-                    <NavLink class="HomeNav"to="/">HOME </NavLink>
-                    <NavLink class='AboutNav' to="/About">ABOUT  </NavLink>
-                    <NavLink class='ResearchNav' to='/Research'>RESERCH  </NavLink>
-                    <NavLink class='TechnologyNav' to='/Technology'>TECHNOLOGY  </NavLink>
-                    <NavLink class='ContactNav' to='/Contact'>CONTACT  </NavLink>
-                    <NavLink class="TrainNav" to="/TrainEyeMusic">TRAIN-EYE-MUSIC</NavLink>
-                </div>
+                <div class="blackLine"/>
             </div>
          );
     }

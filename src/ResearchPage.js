@@ -3,23 +3,34 @@ class ResearchPage extends Component {
     state = {  }
     render() { 
         return ( 
-            <div>
-                <h1>Combining impact and cutting-edge technology with years of research</h1>
-                <table align="center">
-                <tr class="reserch-title2" >
-                    <td>Impact</td>
-                    <td>Technology</td>
-                    <td>Research</td>
-                </tr>
-                <tr>
-                    <td>285 million people with visual<br/> impairment suffer from lower<br/> quality of life, lower<br/> independence resulting in a huge<br/> unmet need in this population</td>
-                    <td>A novel form of eyes-free<br/> interaction with the visual world,<br/> with relevance to many other<br/> use cases of human<br/> enhancement and rehabilitation</td>
-                    <td>Research have consistently shown<br/> us how areas in the visual cortex<br/> of people who are blind from birth<br/> are activated using our working<br/> prototype</td>
-                </tr>
+            <div class="gray_cover">
+            <br/>
+                <div class="container">
+                    <div class="MED">We combine cutting-edge technology & years of research to make an impact.</div>
+                    <div class="BIG">how does it works?</div>
+                    <div class="SML">Creating a new sensory language, composed of musical notes and speech.<br/>
+                         Conveying the visual world through sound.</div>
+                    <br/>
+                    <table >
+                        <tr class="headline" >
+                            <td>Impact</td>
+                            <td>Technology</td>
+                            <td>Research</td>
+                        </tr>
+                        <tr class="SML">
+                            <td>There are 250 million people people worldwide who are visually impaired. Many suffer from depression as a result of their lower quality of life and lack of independence</td>
+                            <td>With the help of computer vision, objects, faces and visual characteristics of a surrounding scene is converted to a unique, IP-protected auditory method combining speech and musical notes</td>
+                            <td>Research has consistently shown that areas in the visual cortex of people who are blind from birth are activated using our working prototype.</td>
+                        </tr>
+                    </table>
+                    <br/>
+                    <div>RenewSenses' EyeMusic combines sensory substitution and computer vision in a wearable device.
+                        Our IP-Protected technologies provides users with the ability to detect surrounding objects, where they are located and also - have a new perceptual experience of the visual landscape.</div>
+                        <img class="tech-img" src="/technology_img.png" alt="big"></img>
+                        <br/>
+                </div>
+                
 
-                </table>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/jVBp2nDmg7E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <h6>in the video: Co-founder Prof. Amir Amedi of the Hebrew University of Jerusalem, explaining the research behind the technology.see more at www.brainvisionrehab.com</h6>
             </div>
          );
     }

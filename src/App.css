@@ -2,27 +2,177 @@
   text-align: center;
   
 }
-.nav-container{
-  display:flex;
-  height: 100px;
+a:-webkit-any-link {
+  margin: 20px;
+  font-size: 16px;
+  color: rgba(23, 22, 117, 0.678);
+  font-family: 'helvetica-w02-light', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
 }
-.nav-logo{
-  margin-left:25px ;
-  margin-top:20px;
-  min-width: 110px;
-  height: auto;
-  /* flex:3; */
+/* TEXT TYPES */
+.section-headline{
+  font-size: 38px;
+  font-weight: bold;
+  font-family: 'helvetica-w02-light', sans-serif;
 }
-.nav-button{
-  margin:auto;
+.headline{
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+.sub-headline{
+  font-size:22px;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 0.6px;
+}
+.text{
+  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+  color:rgb(110, 102, 102);
+  font-weight: lighter;
+}
+.BIG{font-size:36px;}
+/* COVERS */
+.gray_cover{
+  background-color: whitesmoke;
+  margin-top: 50px;
+}
+
+/* ========== Navigation-Bar section ========== */
+.navigation-bar{
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  background-color: white;
+}
+.logo{
+ height: 60px;
+ margin-left: 15px;
+ margin-right: 25px;
+ }
+.nav-buttons{
   font-size: 22px;
+  font-family: 'Roboto Slab', serif;
+  /* font-family: 'Roboto', sans-serif; */
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin-right: 20px;
+  flex-wrap: wrap;
+ }
+.nav-link{
+  text-decoration: none;
+  margin: 10px 40px 10px 10px;
+}
+.blackLine{
+  background-color: rgba(23, 22, 117, 0.678);;
+  width:99%;
+  height: 1px;
+  filter: drop-shadow(2px 20px 4px #4444dd);
   
 }
-.HomeNav{
-margin:auto;
-
+/*========== Home Section ========== */
+.home-container{
+  /* margin-top: 200px; */
+  /* position: absolute; */
+  /* margin-top: 100px; */
+}
+.home-img{
+  margin-top: 120px;
+  width: 95%;
+  /* filter: blur(1.5px); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.img-text{
+  position: absolute;
+  top: 80%;
+  left: 42%;
+  font-weight: bold;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  font-family: 'Roboto Slab', serif;
+}
+/*========== About Section ==========*/
+.container{
+  margin-top:10px;
+  /* margin-top: 10px; */
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto Slab', serif;
+  font-size: 22px;
+  justify-content: center;
+}
+.img_middle{
+  display: flex;
+  width: 180px;
+  align-items: center;
+}
+.subscribe{
+  background-color: rgb(223, 190, 80);
 }
 
+/*========== Products Section ==========*/
+.products{
+  margin-top: 120px;
+  font-size: 32px;
+}
+/*========== Research Section ==========*/
+.headline{
+  font-size: 30px;
+  font-weight: bold;
+  margin:10px;
+}
+.text{
+
+}
+.youtube{
+margin-top: 30px;
+width: 60%;
+height: 450px;
+}
+/*========== Technology Section ========== */
+
+/*used generic .container*/
+.tech-img{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+}
+/* used generic .youtube*/
+
+/*========== Conatct Section ========== */
+.input-container{
+  
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px; 
+}
+.input-contact{
+  height:25px;
+  
+}
+.msg-contact{
+  height: 100px;
+  
+}
+/*========== Train-Eye-Music Section ========== */
+.link-list{
+  display: flex;
+  flex-direction: column;
+  
+  /* text-decoration: none; */
+}
 .img-container{
 width: 100%;
 height: auto;

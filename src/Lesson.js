@@ -13,6 +13,7 @@ class Lesson extends Component {
             visible:true,
             audioSrc:props.audioSrc,
             imgSrc : props.imgSrc,
+            imgText:props.imgText,
             
          }
     }
@@ -24,7 +25,7 @@ class Lesson extends Component {
                 <span>{this.state.contant}</span> 
                 <div class = "TopospeachViewer">
                 <TSViewer rows={this.state.rows} cols={this.state.cols} 
-                    answerIndex={this.state.answerIndex} audioSrc={this.state.audioSrc} imgSrc={this.state.imgSrc}/>
+                    answerIndex={this.state.answerIndex} audioSrc={this.state.audioSrc} imgSrc={this.state.imgSrc} imgText={this.state.imgText}/>
                 </div>
                 
                 </div>
