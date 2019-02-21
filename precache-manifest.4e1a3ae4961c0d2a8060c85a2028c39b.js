@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/renew_senses_web/static/js/runtime~main.906f76ec.js"
   },
   {
-    "revision": "301046d09185b3712522",
-    "url": "/renew_senses_web/static/js/main.301046d0.chunk.js"
+    "revision": "8bb9b0950aad79a20c20",
+    "url": "/renew_senses_web/static/js/main.8bb9b095.chunk.js"
   },
   {
     "revision": "4ac259c963a59cffdbc0",
     "url": "/renew_senses_web/static/js/1.4ac259c9.chunk.js"
   },
   {
-    "revision": "301046d09185b3712522",
-    "url": "/renew_senses_web/static/css/main.57f4cf09.chunk.css"
+    "revision": "8bb9b0950aad79a20c20",
+    "url": "/renew_senses_web/static/css/main.1f8a0dfb.chunk.css"
   },
   {
-    "revision": "f37513b7fe703a2e51c303035b376bad",
+    "revision": "f1398cfa4abcaa6b86bf9371d27c9816",
     "url": "/renew_senses_web/index.html"
   }
 ];
